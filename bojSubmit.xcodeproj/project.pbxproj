@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF63821A2785E56500243B59 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6382192785E56500243B59 /* main.swift */; };
+		EF63821E2785EDF000243B59 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF63821D2785EDEF00243B59 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,7 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EF6382192785E56500243B59 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EF6382192785E56500243B59 /* Hello World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hello World.swift"; sourceTree = "<group>"; };
+		EF63821B2785EA9D00243B59 /* compareAB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compareAB.swift; sourceTree = "<group>"; };
+		EF63821D2785EDEF00243B59 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EF95732D2781D232000E1C07 /* bojSubmit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bojSubmit; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9573302781D232000E1C07 /* division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = division.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,7 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				EF9573302781D232000E1C07 /* division.swift */,
-				EF6382192785E56500243B59 /* main.swift */,
+				EF6382192785E56500243B59 /* Hello World.swift */,
+				EF63821B2785EA9D00243B59 /* compareAB.swift */,
+				EF63821D2785EDEF00243B59 /* main.swift */,
 			);
 			path = bojSubmit;
 			sourceTree = "<group>";
@@ -122,7 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF63821A2785E56500243B59 /* main.swift in Sources */,
+				EF63821E2785EDF000243B59 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
