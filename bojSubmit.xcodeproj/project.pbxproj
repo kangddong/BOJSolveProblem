@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF63821E2785EDF000243B59 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF63821D2785EDEF00243B59 /* main.swift */; };
+		EF6382242789717000243B59 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6382232789717000243B59 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +25,10 @@
 /* Begin PBXFileReference section */
 		EF6382192785E56500243B59 /* Hello World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hello World.swift"; sourceTree = "<group>"; };
 		EF63821B2785EA9D00243B59 /* compareAB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compareAB.swift; sourceTree = "<group>"; };
-		EF63821D2785EDEF00243B59 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EF63821D2785EDEF00243B59 /* compareGrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compareGrade.swift; sourceTree = "<group>"; };
+		EF63821F278947E200243B59 /* checkLeapYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkLeapYear.swift; sourceTree = "<group>"; };
+		EF6382212789511400243B59 /* checkQuadrant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkQuadrant.swift; sourceTree = "<group>"; };
+		EF6382232789717000243B59 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EF95732D2781D232000E1C07 /* bojSubmit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bojSubmit; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9573302781D232000E1C07 /* division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = division.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,7 +66,10 @@
 				EF9573302781D232000E1C07 /* division.swift */,
 				EF6382192785E56500243B59 /* Hello World.swift */,
 				EF63821B2785EA9D00243B59 /* compareAB.swift */,
-				EF63821D2785EDEF00243B59 /* main.swift */,
+				EF63821D2785EDEF00243B59 /* compareGrade.swift */,
+				EF63821F278947E200243B59 /* checkLeapYear.swift */,
+				EF6382212789511400243B59 /* checkQuadrant.swift */,
+				EF6382232789717000243B59 /* main.swift */,
 			);
 			path = bojSubmit;
 			sourceTree = "<group>";
@@ -126,7 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF63821E2785EDF000243B59 /* main.swift in Sources */,
+				EF6382242789717000243B59 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
