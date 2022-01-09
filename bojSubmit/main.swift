@@ -7,8 +7,13 @@
 
 import Foundation
 
-let inputNumber = readLine()!
+var inputNumber = readLine()!
 let count = Int(inputNumber)!
-for i in count {
-    
+
+for _ in 1...count {
+    inputNumber = readLine()!
+    let inputArr = inputNumber.split(separator: " ")
+    let a = Int(inputArr[0])!
+    let b = Int(inputArr[1])!
+    print(a+b)
 }
