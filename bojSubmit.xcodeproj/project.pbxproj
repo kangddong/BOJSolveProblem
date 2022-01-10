@@ -35,6 +35,7 @@
 		EFDDD95B278B1DB4009F231E /* multiplication table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "multiplication table.swift"; sourceTree = "<group>"; };
 		EFDDD95D278B2475009F231E /* A+Brepeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A+Brepeat.swift"; sourceTree = "<group>"; };
 		EFDDD961278C7E02009F231E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EFDDD963278C8007009F231E /* Print1ton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Print1ton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 				EFDDD95B278B1DB4009F231E /* multiplication table.swift */,
 				EFDDD95D278B2475009F231E /* A+Brepeat.swift */,
 				EFDDD961278C7E02009F231E /* main.swift */,
+				EFDDD963278C8007009F231E /* Print1ton.swift */,
 			);
 			path = for;
 			sourceTree = "<group>";
