@@ -1,17 +1,17 @@
 //
-//  2741번
+//  2742번
 //  bojSubmit
 //
-//  Created by 강동영 on 2022/01/10.
+//  Created by 강동영 on 2022/01/11.
 //
 
 import Foundation
+
 
 let input = readLine()!
 let num = Int(input)!
 
 
-for i in 1...num {
-    print(i)
+for i in 1 ..< num {
+    print(num - i)
 }
-

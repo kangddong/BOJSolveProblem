@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EFDDD962278C7E02009F231E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDDD961278C7E02009F231E /* main.swift */; };
+		EFDDD96A278DB36C009F231E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDDD969278DB36C009F231E /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,8 +34,11 @@
 		EFA316372789E9DC00BB6A6B /* Alarm45.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm45.swift; sourceTree = "<group>"; };
 		EFDDD95B278B1DB4009F231E /* multiplication table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "multiplication table.swift"; sourceTree = "<group>"; };
 		EFDDD95D278B2475009F231E /* A+Brepeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A+Brepeat.swift"; sourceTree = "<group>"; };
-		EFDDD961278C7E02009F231E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		EFDDD963278C8007009F231E /* Print1ton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Print1ton.swift; sourceTree = "<group>"; };
+		EFDDD961278C7E02009F231E /* Print1ton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Print1ton.swift; sourceTree = "<group>"; };
+		EFDDD963278C8007009F231E /* Sum1ton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sum1ton.swift; sourceTree = "<group>"; };
+		EFDDD965278DAFEA009F231E /* Print1tonReverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Print1tonReverse.swift; sourceTree = SOURCE_ROOT; };
+		EFDDD967278DB274009F231E /* A+B_pretty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A+B_pretty.swift"; sourceTree = "<group>"; };
+		EFDDD969278DB36C009F231E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +97,11 @@
 				EF6382192785E56500243B59 /* Hello World.swift */,
 				EFDDD95B278B1DB4009F231E /* multiplication table.swift */,
 				EFDDD95D278B2475009F231E /* A+Brepeat.swift */,
-				EFDDD961278C7E02009F231E /* main.swift */,
-				EFDDD963278C8007009F231E /* Print1ton.swift */,
+				EFDDD967278DB274009F231E /* A+B_pretty.swift */,
+				EFDDD969278DB36C009F231E /* main.swift */,
+				EFDDD961278C7E02009F231E /* Print1ton.swift */,
+				EFDDD965278DAFEA009F231E /* Print1tonReverse.swift */,
+				EFDDD963278C8007009F231E /* Sum1ton.swift */,
 			);
 			path = for;
 			sourceTree = "<group>";
@@ -158,7 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFDDD962278C7E02009F231E /* main.swift in Sources */,
+				EFDDD96A278DB36C009F231E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

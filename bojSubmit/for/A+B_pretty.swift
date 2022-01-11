@@ -1,8 +1,8 @@
 //
-//  11021번
+//  11021번 문제
 //  bojSubmit
 //
-//  Created by 강동영 on 2022/01/11.
+//  Created by 강동영 on 2022/01/09.
 //
 
 import Foundation
@@ -15,5 +15,5 @@ for i in 1...count {
     let inputArr = inputNumber.split(separator: " ")
     let a = Int(inputArr[0])!
     let b = Int(inputArr[1])!
-    print("Case #\(i): \(a) + \(b) = \(a+b)")
+    print("Case #\(i): \(a+b)")
 }
