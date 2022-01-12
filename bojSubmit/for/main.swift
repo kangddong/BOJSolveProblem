@@ -16,4 +16,5 @@ for i in 1...count {
     let a = Int(inputArr[0])!
     let b = Int(inputArr[1])!
     print("Case #\(i): \(a) + \(b) = \(a+b)")
+    print("Case #\(i): \(a) + \(b) = \(a+b)")
 }
