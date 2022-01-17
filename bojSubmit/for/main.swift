@@ -1,20 +1,16 @@
 //
-//  11021번
+//  2438번 문제
 //  bojSubmit
 //
-//  Created by 강동영 on 2022/01/11.
+//  Created by 강동영 on 2022/01/17.
 //
 
-import Foundation
+    import Foundation
 
-var inputNumber = readLine()!
-let count = Int(inputNumber)!
+    let input = Int(readLine()!)!
+    var star:String = ""
 
-for i in 1...count {
-    inputNumber = readLine()!
-    let inputArr = inputNumber.split(separator: " ")
-    let a = Int(inputArr[0])!
-    let b = Int(inputArr[1])!
-    print("Case #\(i): \(a) + \(b) = \(a+b)")
-    print("Case #\(i): \(a) + \(b) = \(a+b)")
-}
+    for _ in 1...input {
+        star += "*"
+        print(star)
+    }
