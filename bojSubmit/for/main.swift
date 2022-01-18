@@ -1,25 +1,20 @@
 //
-//  2439번
+//  main.swift
 //  bojSubmit
 //
-//  Created by 강동영 on 2022/01/17.
+//  Created by 강동영 on 2022/01/18.
 //
 
 import Foundation
 
-let input = Int(readLine()!)!
+let input = readLine()!
+let inputArray = readLine()!
 
-for i in 0 ..< input { // 0 1 2 3 4
-    var star:String = ""
-    for _ in 1..<input - i { //
-        //star += " "
-        star.append(" ")
-    }
+let target = input.split(separator: " ")
+let numberArray = inputArray.split(separator: " ")
 
-    for _ in 0...i {
-        //star += "*"
-        star.append("*")
+for item in numberArray {
+    if Int(target[1])! > Int(item)! {
+        print(item, terminator: " ")
     }
-    print(star)
 }
-

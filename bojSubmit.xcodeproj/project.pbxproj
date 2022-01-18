@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF4EC9CE2795A95D0073DB41 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4EC9CD2795A95D0073DB41 /* main.swift */; };
+		EF4EC9D1279703AD0073DB41 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4EC9D0279703AD0073DB41 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,7 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EF4EC9CD2795A95D0073DB41 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EF4EC9CD2795A95D0073DB41 /* PrintStar2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintStar2.swift; sourceTree = "<group>"; };
+		EF4EC9CF279703AD0073DB41 /* bojSubmit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bojSubmit-Bridging-Header.h"; sourceTree = "<group>"; };
+		EF4EC9D0279703AD0073DB41 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EF6382192785E56500243B59 /* Hello World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hello World.swift"; sourceTree = "<group>"; };
 		EF63821B2785EA9D00243B59 /* CompareAB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareAB.swift; sourceTree = "<group>"; };
 		EF63821D2785EDEF00243B59 /* CompareGrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareGrade.swift; sourceTree = "<group>"; };
@@ -102,10 +104,12 @@
 				EFDDD967278DB274009F231E /* A+B_pretty.swift */,
 				EFDDD969278DB36C009F231E /* A+B_pretty2.swift */,
 				EFDDD96B2795A065009F231E /* PrintStar.swift */,
-				EF4EC9CD2795A95D0073DB41 /* main.swift */,
+				EF4EC9D0279703AD0073DB41 /* main.swift */,
+				EF4EC9CD2795A95D0073DB41 /* PrintStar2.swift */,
 				EFDDD961278C7E02009F231E /* Print1ton.swift */,
 				EFDDD965278DAFEA009F231E /* Print1tonReverse.swift */,
 				EFDDD963278C8007009F231E /* Sum1ton.swift */,
+				EF4EC9CF279703AD0073DB41 /* bojSubmit-Bridging-Header.h */,
 			);
 			path = for;
 			sourceTree = "<group>";
@@ -142,6 +146,7 @@
 				TargetAttributes = {
 					EF95732C2781D232000E1C07 = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
@@ -168,7 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF4EC9CE2795A95D0073DB41 /* main.swift in Sources */,
+				EF4EC9D1279703AD0073DB41 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,10 +298,18 @@
 		EF9573352781D232000E1C07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5URVMMXQW6;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "bojSubmit/for/bojSubmit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -304,10 +317,17 @@
 		EF9573362781D232000E1C07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5URVMMXQW6;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "bojSubmit/for/bojSubmit-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
