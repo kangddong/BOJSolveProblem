@@ -6,6 +6,10 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EF4B94F727BBDA5700A257A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4B94F627BBDA5700A257A8 /* main.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		EF95732B2781D232000E1C07 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -21,6 +25,8 @@
 /* Begin PBXFileReference section */
 		EF4B94DE27B16D0200A257A8 /* whileSumCseeIf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whileSumCseeIf.swift; sourceTree = "<group>"; };
 		EF4B94E227B16D6500A257A8 /* whileSumCseeGuard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whileSumCseeGuard.swift; sourceTree = "<group>"; };
+		EF4B94F427BBDA1600A257A8 /* whereIsMax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = whereIsMax.swift; sourceTree = "<group>"; };
+		EF4B94F627BBDA5700A257A8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EF4EC9CD2795A95D0073DB41 /* printStar2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = printStar2.swift; sourceTree = "<group>"; };
 		EF6382192785E56500243B59 /* Hello World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hello World.swift"; sourceTree = "<group>"; };
 		EF63821B2785EA9D00243B59 /* CompareAB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareAB.swift; sourceTree = "<group>"; };
@@ -61,6 +67,15 @@
 			path = while;
 			sourceTree = "<group>";
 		};
+		EF4B94F327BBD9F600A257A8 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				EF4B94F427BBDA1600A257A8 /* whereIsMax.swift */,
+				EF4B94F627BBDA5700A257A8 /* main.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
 		EF9573242781D232000E1C07 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +95,7 @@
 		EF95732F2781D232000E1C07 /* bojSubmit */ = {
 			isa = PBXGroup;
 			children = (
+				EF4B94F327BBD9F600A257A8 /* Array */,
 				EF4B94E127B16D3B00A257A8 /* while */,
 				EFDDD960278C7DD8009F231E /* for */,
 				EFDDD95F278B24CB009F231E /* if */,
@@ -177,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF4B94F727BBDA5700A257A8 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
