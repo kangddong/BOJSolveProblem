@@ -8,14 +8,24 @@
 import Foundation
 
 var numberSet: Set<Int> = []
-var count = 0
+var numberArray: Array<Int> = []
+
+//for _ in 0...9 {
+//    let input = Int(readLine()!)!
+//    let number = input % 42
+//    numberSet.insert(number)
+//}
 
 for _ in 0...9 {
     let input = Int(readLine()!)!
     let number = input % 42
-    numberSet.insert(number)
+    
+    if !numberArray.contains(number) {
+        numberArray.append(number)
+    }
 }
 
-print(numberSet.count)
+print(numberArray.count)
+//print(numberSet.count)
 
 
