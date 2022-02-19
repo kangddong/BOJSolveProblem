@@ -1,31 +1,27 @@
 //
-//  3052.swift
+//  1546.swift
 //  bojSubmit
 //
-//  Created by 강동영 on 2022/02/16.
+//  Created by 강동영 on 2022/02/19.
 //
 
 import Foundation
 
-var numberSet: Set<Int> = []
-var numberArray: Array<Int> = []
+var doubleArray: Array<Double> = []
+var sum: Double = 0
 
-//for _ in 0...9 {
-//    let input = Int(readLine()!)!
-//    let number = input % 42
-//    numberSet.insert(number)
-//}
+var input = Int(readLine()!)!
+var inputString = readLine()!
+var numberArray = inputString.split(separator: " ")
 
-for _ in 0...9 {
-    let input = Int(readLine()!)!
-    let number = input % 42
-    
-    if !numberArray.contains(number) {
-        numberArray.append(number)
-    }
+for index in 0...input-1 {
+    doubleArray.append(Double(numberArray[index])!)
 }
 
-print(numberArray.count)
-//print(numberSet.count)
+var maxScore = doubleArray.max()! // M,  score/M*100
 
-
+for item in doubleArray {
+    let newScore = item / maxScore * 100
+    sum += newScore
+}
+print(sum/Double(input))
