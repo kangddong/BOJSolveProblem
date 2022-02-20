@@ -1,27 +1,30 @@
 //
-//  1546.swift
+//  8958.swift
 //  bojSubmit
 //
-//  Created by 강동영 on 2022/02/19.
+//  Created by 강동영 on 2022/02/20.
 //
-
+//"OOXXOXXOOO"의 점수는 1+2+0+0+1+0+0+1+2+  3 = 10점
 import Foundation
+var point: Int = 0
+var result: Int = 0
 
-var doubleArray: Array<Double> = []
-var sum: Double = 0
+let input = Int(readLine()!)! // count
 
-var input = Int(readLine()!)!
-var inputString = readLine()!
-var numberArray = inputString.split(separator: " ")
-
-for index in 0...input-1 {
-    doubleArray.append(Double(numberArray[index])!)
+for _ in 0...input-1 {
+    point = 0
+    result = 0
+    
+    let quizResult = readLine()!// OOXXOXXOOO
+    
+    for item in quizResult {
+        if item == "O" {
+            result += 1
+        } else {
+            result = 0
+        }
+        point += result
+    }
+    print(point)
 }
 
-var maxScore = doubleArray.max()! // M,  score/M*100
-
-for item in doubleArray {
-    let newScore = item / maxScore * 100
-    sum += newScore
-}
-print(sum/Double(input))
