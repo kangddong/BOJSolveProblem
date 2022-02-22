@@ -6,14 +6,13 @@
 //
 //"OOXXOXXOOO"의 점수는 1+2+0+0+1+0+0+1+2+  3 = 10점
 import Foundation
-var point: Int = 0
-var result: Int = 0
+
 
 let input = Int(readLine()!)! // count
 
 for _ in 0...input-1 {
-    point = 0
-    result = 0
+    var point: Int = 0
+    var result: Int = 0
     
     let quizResult = readLine()!// OOXXOXXOOO
     
