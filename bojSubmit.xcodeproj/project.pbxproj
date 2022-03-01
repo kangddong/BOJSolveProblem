@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF4E117827C136760072CB83 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4E117727C136760072CB83 /* main.swift */; };
+		EF6575DD27C53B52003FEF90 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6575DC27C53B52003FEF90 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,8 +27,8 @@
 		EF4B94E227B16D6500A257A8 /* whileSumCseeGuard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whileSumCseeGuard.swift; sourceTree = "<group>"; };
 		EF4B94F427BBDA1600A257A8 /* whereIsMax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = whereIsMax.swift; sourceTree = "<group>"; };
 		EF4B94F627BBDA5700A257A8 /* findSameNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findSameNumber.swift; sourceTree = "<group>"; };
-		EF4B953427BD42FD00A257A8 /* Findreminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Findreminder.swift; sourceTree = "<group>"; };
-		EF4E117727C136760072CB83 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EF4B953427BD42FD00A257A8 /* findReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findReminder.swift; sourceTree = "<group>"; };
+		EF4E117727C136760072CB83 /* cheatAverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cheatAverage.swift; sourceTree = "<group>"; };
 		EF4EC9CD2795A95D0073DB41 /* printStar2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = printStar2.swift; sourceTree = "<group>"; };
 		EF6382192785E56500243B59 /* Hello World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hello World.swift"; sourceTree = "<group>"; };
 		EF63821B2785EA9D00243B59 /* CompareAB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareAB.swift; sourceTree = "<group>"; };
@@ -36,6 +36,9 @@
 		EF63821F278947E200243B59 /* CheckLeapYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLeapYear.swift; sourceTree = "<group>"; };
 		EF6382212789511400243B59 /* CheckQuadrant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckQuadrant.swift; sourceTree = "<group>"; };
 		EF6382232789717000243B59 /* EnumCaseAlarm45.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumCaseAlarm45.swift; sourceTree = "<group>"; };
+		EF6575D627C23950003FEF90 /* oxQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oxQuiz.swift; sourceTree = "<group>"; };
+		EF6575D827C2873A003FEF90 /* averageCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = averageCheck.swift; sourceTree = "<group>"; };
+		EF6575DC27C53B52003FEF90 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EF95732D2781D232000E1C07 /* bojSubmit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bojSubmit; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9573302781D232000E1C07 /* Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
 		EFA316372789E9DC00BB6A6B /* Alarm45.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm45.swift; sourceTree = "<group>"; };
@@ -74,8 +77,10 @@
 			children = (
 				EF4B94F427BBDA1600A257A8 /* whereIsMax.swift */,
 				EF4B94F627BBDA5700A257A8 /* findSameNumber.swift */,
-				EF4B953427BD42FD00A257A8 /* Findreminder.swift */,
-				EF4E117727C136760072CB83 /* main.swift */,
+				EF4B953427BD42FD00A257A8 /* findReminder.swift */,
+				EF6575D627C23950003FEF90 /* oxQuiz.swift */,
+				EF6575D827C2873A003FEF90 /* averageCheck.swift */,
+				EF4E117727C136760072CB83 /* cheatAverage.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -83,6 +88,7 @@
 		EF9573242781D232000E1C07 = {
 			isa = PBXGroup;
 			children = (
+				EF6575DC27C53B52003FEF90 /* main.swift */,
 				EF95732F2781D232000E1C07 /* bojSubmit */,
 				EF95732E2781D232000E1C07 /* Products */,
 			);
@@ -197,7 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF4E117827C136760072CB83 /* main.swift in Sources */,
+				EF6575DD27C53B52003FEF90 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
